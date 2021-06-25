@@ -1,0 +1,78 @@
+body {
+  background-color: lightgrey;
+}
+
+.navbar {
+  padding-left: 5rem;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+}
+
+li {
+  font-family: 'Ropa Sans', sans-serif;
+  font-weight: bold;
+}
+
+.cards-column {
+  background-color: white;
+  margin-top: 2rem;
+  padding: 3rem;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+
+.cards-column p {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+#date {
+  font-weight: bolder;
+  font-size: 0.9rem;
+}
+
+#tags {
+  font-size: 0.7rem;
+  font-weight: bolder;
+}
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6b6b6b;
+  padding: 1rem;
+}
+
+.side-column {
+  margin-top: 2rem;
+}
+
+.popular-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  background-color: white;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  font-family: 'Ropa Sans', sans-serif;
+  font-weight: bold;
+}
+
+.fas {
+  color: white;
+}
+
+.side-column img {
+  margin: 0.5rem;
+}
+
+.row {
+  margin-bottom: 2rem;
+}
